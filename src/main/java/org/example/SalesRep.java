@@ -6,7 +6,7 @@ public class SalesRep {
 
 
     public SalesRep(int nrOfSales, double quotaPerSale) {
-        if (nrOfSales < 0){
+        if (nrOfSales < 0) {
             System.out.println("Can`t be negativ sale!");
             throw new IllegalArgumentException("Can´t be negative sale!");
         }
@@ -14,7 +14,7 @@ public class SalesRep {
         QuotaPerSale = quotaPerSale;
     }
 
-    public double getRevenue(){
+    public double getRevenue() {
 
         double revenue = QuotaPerSale * NrOfSales;
         return revenue;

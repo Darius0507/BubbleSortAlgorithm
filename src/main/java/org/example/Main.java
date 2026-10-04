@@ -12,14 +12,14 @@ public class Main {
         SalesRep[] representatives = {guy1, guy2, guy3, guy4};
 
         BubbleSort bubbleSortAlgorithm = new BubbleSort();
-        SalesRep [ ] sortedRepresentatives = bubbleSortAlgorithm.bubbleSort(representatives);
+        SalesRep[] sortedRepresentatives = bubbleSortAlgorithm.bubbleSort(representatives);
 
         System.out.println("The representatives sorted about revenue:");
 
-        for (SalesRep guy : sortedRepresentatives){
+        for (SalesRep guy : sortedRepresentatives) {
             System.out.println(guy);
-        }
 
+        }
 
 
     }
